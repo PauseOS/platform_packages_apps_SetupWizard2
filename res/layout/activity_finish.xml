@@ -18,7 +18,8 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:contentDescription="@string/grapheneos_icon"
-            android:src="@drawable/grapheneos_icon" />
+            android:src="@drawable/grapheneos_icon"
+            android:visibility="gone" />
 
         <LinearLayout
             android:id="@+id/disable_oem_unlocking_container"
